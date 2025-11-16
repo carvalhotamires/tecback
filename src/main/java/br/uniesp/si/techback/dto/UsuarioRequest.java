@@ -19,3 +19,4 @@ public class UsuarioRequest {
     @Size(min = 6, message = "A senha deve ter no mínimo 6 caracteres")
     private String password;
 }
+//DTO Data Transfer Object" (Objeto de Transferência de Dados). É um padrão de projeto usado para transferir dados entre subsistemas de um software.

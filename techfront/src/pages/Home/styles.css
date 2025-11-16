@@ -1,0 +1,75 @@
+/* Reset e estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #141414;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.home {
+  min-height: 100vh;
+  position: relative;
+}
+
+.home__main {
+  padding-top: 68px; /* Altura do header */
+}
+
+/* Estilo para os títulos das seções */
+h2 {
+  font-size: 1.4vw;
+  font-weight: 500;
+  margin: 1em 0 0.5em 3%;
+  color: #e5e5e5;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .hero__content {
+    width: 80% !important;
+  }
+  
+  .hero__title {
+    font-size: 5vw !important;
+  }
+  
+  .hero__description {
+    font-size: 2vw !important;
+  }
+  
+  .hero__button {
+    font-size: 2vw !important;
+    padding: 0.5rem 1rem !important;
+  }
+  
+  .row__title {
+    font-size: 3vw !important;
+  }
+  
+  .row__poster {
+    max-width: 200px;
+  }
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Classe para animação de fade in */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}

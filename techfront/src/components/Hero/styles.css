@@ -1,0 +1,81 @@
+.hero {
+  position: relative;
+  height: 56.25vw; /* 16:9 Aspect Ratio */
+  min-height: 400px;
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/5eab1b22-c5ea-48b0-8ef4-862b3fa6df2c/4af43238-4dfd-4946-a0f6-62499fb99923/BR-pt-20240219-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+}
+
+.hero__content {
+  position: absolute;
+  width: 36%;
+  left: 4%;
+  bottom: 35%;
+  padding: 0 4% 0 0;
+}
+
+.hero__title {
+  font-size: 3.5vw;
+  font-weight: 700;
+  margin-bottom: 1vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+.hero__description {
+  font-size: 1.2vw;
+  line-height: 1.3;
+  margin-top: 1vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+.hero__buttons {
+  display: flex;
+  margin-top: 1.5vw;
+  gap: 1rem;
+}
+
+.hero__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2vw;
+  font-weight: 600;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.hero__button--play {
+  background-color: white;
+  color: black;
+}
+
+.hero__button--play:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.hero__button--info {
+  background-color: rgba(109, 109, 110, 0.7);
+  color: white;
+}
+
+.hero__button--info:hover {
+  background-color: rgba(109, 109, 110, 0.4);
+}
+
+.hero--fadeBottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #141414
+  );
+}

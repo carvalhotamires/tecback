@@ -1,0 +1,93 @@
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #141414;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #141414;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+/* Estilos para barras de rolagem */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Classe para animação de fade in */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .hero__content {
+    width: 80% !important;
+  }
+  
+  .hero__title {
+    font-size: 5vw !important;
+  }
+  
+  .hero__description {
+    font-size: 2vw !important;
+  }
+  
+  .hero__button {
+    font-size: 2vw !important;
+    padding: 0.5rem 1rem !important;
+  }
+  
+  .row__title {
+    font-size: 3vw !important;
+  }
+  
+  .row__poster {
+    max-width: 200px;
+  }
+}

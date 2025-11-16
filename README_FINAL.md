@@ -1,4 +1,29 @@
-# IESPFLIX - Projeto BackEnd
+#  Projeto BackEnd
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+
+</head>
+<body>
+  <h1>🎬 IESPFLIX</h1>
+  <p><strong>Plataforma de Streaming de Filmes e Séries</strong></p>
+
+<h2>📌 Sobre o Projeto</h2>
+  <p>
+    O <strong>IESPFLIX</strong> é um sistema acadêmico inspirado na Netflix, desenvolvido para demonstrar conceitos de desenvolvimento de software,
+    banco de dados e versionamento com Git. A aplicação permite que usuários realizem cadastro, login e naveguem em um catálogo de filmes e séries,
+    salvando favoritos e escolhendo entre diferentes planos de assinatura.
+  </p>
+  <h2>👥 Equipe de Desenvolvimento</h2>
+  <ul>
+    <li><strong>Harison Heim Veloso Filho</strong></li>
+    <li><strong>Lanusse Helena de Almeida Silveira</strong></li>
+    <li><strong>Lucivânia Ramiro de Araújo</strong></li>
+    <li><strong>Maria Renata da Silva Bezerra</strong></li>
+    <li><strong>Messias da Silva Guedes</strong></li>
+    <li><strong>Tamires Carvalho da Silva</strong></li>
+  </ul> 
 
 ## 📌 Descrição
 Este projeto tem como objetivo desenvolver uma **API REST** para o sistema **IESPFLIX**, utilizando:
