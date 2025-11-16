@@ -1,4 +1,4 @@
-package br.uniesp.si.techback.validator;
+package br.uniesp.si.techback.validation;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
